@@ -1,0 +1,68 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="s1.css">
+      <title id="">Survey form</title>
+    </head>
+    <header id="header">
+        <h1 id="title"> Survey Form</h1>
+
+    </header>
+<body>
+    <main id="main">
+        <h2 id="h2">Welcome to Mehta Technologies</h2><hr>
+        <form id="survey form">
+            <h3 title="description">Please enter the following details</h3>
+            <div id="div">
+                <br>
+                <label for="name" id="name-label"><strong>  Your Name</strong></label>
+                <input type="text" name="name" id="name" placeholder="Write Your name" required> <br><br>
+                <label for="email" id="email-label"><strong>  Your Email-id</strong></label>
+                <input type="email" name="email" id="email" placeholder="Write your email" required> <br><br>
+                <label for="Contact number" id=contact-label><strong>  Your Contact Number</strong> </label>
+                <input type="number" min="0000000000" max="9999999999" name="Contact Number" id="number" placeholder="Write your contact number" required><br><br>
+                <label for="DOB" id="DOB-label"><strong>  Your DOB</strong></label>
+                <input type="text" name="DOB" id="DOB" placeholder="Write your Date of birth" required>
+                <p><strong>  Your Gender</strong></p>
+                <label for="male" id="male-label"> Male</label>
+                <input type="radio" name="Gender" value="male" id="male"><br>
+                <label for="female" id="female-label"> Female</label>
+                <input type="radio" name="Gender" value="female" id="female"><br><br>
+                <label for="dropdown"><strong>  Which option best describes your current role?</strong></label>
+                <select name="dropdown" id="dropdown">
+					<option value="" disabled>Select an option</option>
+					<option value="student">Student</option>
+					<option value="full-time">Full-time job</option>
+					<option value="part-time">Part-time job</option>
+					<option value="unemployed">Unemployed</option>
+					<option value="no-answer">Prefer not to say</option>
+					<option value="other">Other</option>
+                </select>
+                <p><strong>  Check any interests that you like:</strong></p>
+                <input type="checkbox" id="c1" name="Arts and Entertainment" value=h1>
+                <label for="Arts and Entertainment" id="c1">Arts and Entertainment</label><br>
+                <input type="checkbox" id="c2" name="Books and literature" value="h2">
+                <label for="Books and literature" id="c2">Books and literature</label><br>
+                <input type="checkbox" id="c3" name="Computer and Electonics" value="h3">
+                <label for="Computer and Electonics" id="c3">Computer and Electonics</label><br>
+                <input type="checkbox" id="c4" name="Law and Goverment" value="h4">
+                <label for="Law and Goverment" id="c4">Law and Goverment</label><br>
+                <input type="checkbox" id="c5" name="Science" value="h5">
+                <label for="Science" id="c5">Science</label><br>
+                <input type="checkbox" id="c6" name="Sports" value="h6">
+                <label for="Sports" id="c6">Sports</label><br>
+                <input type="checkbox" id="c7" name="Travel" value="h7">
+                <label for="Travel" id="c7">Travel</label><br><br>
+				<label for="textarea"><strong>Any comments or suggestions?</strong></label><br><br>
+				<textarea type="text" name="textarea" id="textarea" rows="5"></textarea>
+
+            </div><br>
+            <button type="submit" form="form1" value="Submit" id="submit">Submit</button>
+
+        </form>
+        
+    </main>
+</body>
+</html>
